@@ -8,6 +8,8 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity(), PurchasesUpdatedListener {
 
+    //following tutorial at: https://medium.com/@vleonovs8/tutorial-google-play-billing-in-app-purchases-6143bda8d290
+
     private lateinit var billingClient: BillingClient
     private lateinit var productsAdapter: ProductsAdapter
 
